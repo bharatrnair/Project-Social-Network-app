@@ -24,23 +24,23 @@ function App() {
         <input type="text" placeholder='First Name' id='firstName' />
         <input type="text" placeholder='Last Name' id='lastName' />
         </div>
-        <div className="email">
+        <div className="formField">
           <p>E-mail</p>
         <input type="text" />
         </div>
-        <div className="dob">
+        <div className="formField">
           <p>Date of Birth</p>
         <input type="date" />
         </div>
-        <div className="phoneNumber">
+        <div className="formField">
           <p>Phone Number</p>
         <input type="text" />
         </div>
-        <div className="state">
+        <div className="formField">
           <p>State</p>
         <input type="text" />
         </div>
-        <div className="city">
+        <div className="formField">
           <p>City</p>
         <input type="text" />
         </div>

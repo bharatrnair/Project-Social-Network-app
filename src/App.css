@@ -102,6 +102,7 @@ html,body,#root{
 }
 .signUpSection{
   padding-left: 10px;
+  display: grid;
   gap: 20px;
 }
 .signUpContainer
@@ -109,32 +110,14 @@ html,body,#root{
     display: grid;
     place-items: center;
 }
-.signUpInput{
+.signUpInput
+{
   display: flex;
   gap: 10px;
-  margin-bottom: 10px;
 }
-.email{
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-.dob{
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-.phoneNumber{
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-.state{
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-.city{
-  display: flex;
+
+.formField{
+  display: grid;
+  grid-template-columns: 120px 1fr;
   gap: 10px;
 }
