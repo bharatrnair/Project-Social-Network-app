@@ -65,6 +65,7 @@ html,body,#root{
   display: grid;
   gap: 20px;
   margin-top: 40%;
+  padding-left: 20px; 
 }
 #username,#password{
   padding: 20px;
@@ -100,8 +101,40 @@ html,body,#root{
   font-size: 36px;
 }
 .signUpSection{
-  margin-left: 70px;
   padding-left: 10px;
-  margin-top: 150px;
-
+  gap: 20px;
+}
+.signUpContainer
+{
+    display: grid;
+    place-items: center;
+}
+.signUpInput{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.email{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.dob{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.phoneNumber{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.state{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.city{
+  display: flex;
+  gap: 10px;
 }
