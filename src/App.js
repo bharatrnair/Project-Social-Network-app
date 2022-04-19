@@ -8,19 +8,19 @@ function App() {
       <div className="loginContainer">
         <div className="loginSection">
         <input type="text" placeholder='username' id='username' />
-        <br />
         <input type="text" placeholder='password'  id='password' />
         </div>
       
       <div className="loginButton">
         <button id='login'>Log in</button>
       </div>
-        <p>"connect people around"</p>
+        <p id='one'>"connect people around"</p>
         </div>
       
       <div className="signUpContainer">
-
-        
+        <div className="signUpSection">
+        <p id='two'>Sign Up</p>
+        </div>
 
       </div>
 
