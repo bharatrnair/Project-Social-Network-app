@@ -44,8 +44,7 @@ function App() {
           <p>City</p>
         <input type="text" />
         </div>
-        
-
+        <button id='signUpButton'>Sign-up</button>
         </div>
 
       </div>

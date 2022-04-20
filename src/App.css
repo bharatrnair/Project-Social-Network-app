@@ -103,7 +103,7 @@ html,body,#root{
 .signUpSection{
   padding-left: 10px;
   display: grid;
-  gap: 20px;
+  gap: 20px; 
 }
 .signUpContainer
 {
@@ -112,12 +112,37 @@ html,body,#root{
 }
 .signUpInput
 {
-  display: flex;
-  gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
 }
 
 .formField{
   display: grid;
   grid-template-columns: 120px 1fr;
   gap: 10px;
+}
+.formField input{
+  background-color: #D4F2F4;
+  border : solid 2px #006F76;
+  border-radius: 7px;
+  height: 48px;
+  width: 375px;
+}
+#signUpButton{
+  width: 85px;
+  margin-left: 262px;
+  padding: 6px;
+  border-radius: 7px;
+  background-color: #006F76;
+  color: white;
+
+}
+.signUpInput input{
+  background-color: #D4F2F4;
+  border: solid 2px #006F76;
+  border-radius: 7px;
+  height: 39px;
+
 }
