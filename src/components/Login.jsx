@@ -1,7 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+function Login() {
   return (
     <div className="mainContainer">
 
@@ -54,4 +53,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
