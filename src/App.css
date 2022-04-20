@@ -153,16 +153,39 @@ html,body,#root{
   background-color: #D4F2F4;
 }
 .otpDetailsSection {
-    margin: auto;
+    margin: auto; 
     max-width: 50%;
     display: grid;
     gap: 20px;
     margin-top: 40%;
-    padding-left: 105px;
+    padding-left: 25px;
 }
-.underline{
+.otpInput{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: #fff;
   gap: 10px;
-  border-bottom: solid 2px;;
+
+}
+.underline{
+  background-color: #006F76;
+  border: none;
+  width: 50px;
+  border-bottom: solid 2px #fff;
+  text-align: center;
+}
+#otp{
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.messageSection{
+  color: #fff;
+  margin-left: auto;
+  margin-right: 0px;
+}
+.nextButton{
+  width: 30px;
+
 }
