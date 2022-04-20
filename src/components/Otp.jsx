@@ -1,5 +1,6 @@
 import React from 'react'
-import next from './../components/next.png'
+import next from './../components/Assets/next.png'
+import vector from './../components/Assets/otpvector.png'
 
 
 const Otp = () => {
@@ -27,6 +28,13 @@ const Otp = () => {
         </div>
         </div>
         <div className="vectorSection">
+            <div className="vectorImage">
+                <img src={vector} alt="" />
+                </div>
+                <div className="otpMessage">
+                <p id='three'>we have sent an otp to your registered  phone number</p>
+                </div>
+            
 
         </div>
     </div>
