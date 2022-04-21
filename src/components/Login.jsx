@@ -1,10 +1,14 @@
 import React from 'react';
+import logo from './../components/Assets/logo.svg'
 
 function Login() {
   return (
     <div className="mainContainer">
 
       <div className="loginContainer">
+        <div className="logoSection">
+          <img src={logo} alt="" />
+        </div>
         <div className="loginSection">
         <input type="text" placeholder='username' id='username' />
         <input type="text" placeholder='password'  id='password' />

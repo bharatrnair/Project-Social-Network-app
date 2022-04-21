@@ -1,5 +1,5 @@
 import React from 'react'
-import next from './../components/Assets/next.png'
+import next from './../components/Assets/next.svg'
 import vector from './../components/Assets/otpvector.png'
 
 

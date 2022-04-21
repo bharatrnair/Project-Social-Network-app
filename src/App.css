@@ -78,7 +78,7 @@ html,body,#root{
   font-size: 16px;
 }
 #one{
-  color: white;
+  color: #000000;
   text-align: center;
   margin-top: 50px;
 }
@@ -124,8 +124,8 @@ html,body,#root{
   gap: 10px;
 }
 .formField input{
-  background-color: #D4F2F4;
-  border : solid 2px #006F76;
+  background-color: #ffff;
+  border : solid 2px #000000;
   border-radius: 7px;
   height: 48px;
   width: 375px;
@@ -135,22 +135,22 @@ html,body,#root{
   margin-left: 415px;
   padding: 6px;
   border-radius: 7px;
-  background-color: #006F76;
+  background-color: #0E0D0D;
   color: white;
 
 }
 .signUpInput input{
-  background-color: #D4F2F4;
-  border: solid 2px #006F76;
+  background-color: #ffff;
+  border: solid 2px #000000;
   border-radius: 7px;
   height: 39px;
 
 }
 .otpSection{
-  background-color: #006F76;
+  background-color: #C4C4C4;
 }
 .vectorSection{
-  background-color: #D4F2F4;
+  background-color: #ffff;
 }
 .otpDetailsSection {
     margin: auto; 
@@ -168,20 +168,20 @@ html,body,#root{
 
 }
 .underline{
-  background-color: #006F76;
+  background-color: #C4C4C4;
   border: none;
   width: 50px;
-  border-bottom: solid 2px #fff;
+  border-bottom: solid 2px #000000;
   text-align: center;
 }
 #otp{
   text-align: center;
-  color: #fff;
+  color: #000000;
   font-size: 25px;
   margin-bottom: 10px;
 }
 .messageSection{
-  color: #fff;
+  color: #000000;
   margin-left: auto;
   margin-right: 0px;
 }
@@ -205,3 +205,9 @@ html,body,#root{
   color: black;
   font-size: 20px;
 }
+.logoSection{
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
