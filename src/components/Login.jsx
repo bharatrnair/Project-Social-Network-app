@@ -16,7 +16,7 @@ function Login() {
         </div>
         </div>
       
-      <div className= "signUpContainer">
+        <div className= "signUpContainer">
         <div className="signUpSection">
         <p id='two'>Sign Up</p>
         <div className="signUpInput">
