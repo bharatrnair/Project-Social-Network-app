@@ -6,10 +6,10 @@ function Login() {
     <div className="mainContainer">
 
       <div className="loginContainer">
+        <div className="loginSection">
         <div className="logoSection">
           <img src={logo} alt="" />
         </div>
-        <div className="loginSection">
         <input type="text" placeholder='username' id='username' />
         <input type="text" placeholder='password'  id='password' />
       

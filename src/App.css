@@ -53,6 +53,7 @@ html,body,#root{
 }
 .loginContainer{
   background-color: #C4C4C4;
+  padding-right: 10px;
   /* margin: auto; */
 }
 .signUpContainer{
@@ -205,9 +206,9 @@ html,body,#root{
   color: black;
   font-size: 20px;
 }
-.logoSection{
-  display: grid;
-  place-items: center;
-  align-content: center;
+.logoSection img{
+  width: 65px;
 }
-
+.logoSection{
+  padding-left: 20px;
+}
