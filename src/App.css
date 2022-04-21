@@ -52,11 +52,11 @@ html,body,#root{
   grid-template-columns: 1fr 1.5fr;
 }
 .loginContainer{
-  background-color: #006F76;
+  background-color: #C4C4C4;
   /* margin: auto; */
 }
 .signUpContainer{
-  background-color: #D4F2F4;
+  background-color: #F9FFFF;
 }
 .loginSection{
   margin: auto;
@@ -69,7 +69,7 @@ html,body,#root{
 }
 #username,#password{
   padding: 20px;
-  background-color: #D4F2F4;
+  background-color: #F9FFFF;
   border-radius: 7px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border: none;
@@ -90,8 +90,8 @@ html,body,#root{
 #login{
   padding: 10px;
   width: 100px;
-  background-color: #D4F2F4;
-  color: black;
+  background-color: #000000;
+  color: white;
   border: none;
   border-radius: 7px;
   box-shadow: 10px;
