@@ -212,9 +212,14 @@ html,body,#root{
 .logoSection{
   padding-left: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 5px 1fr;
+  gap: 25px;
 }
 h1{
   font-size: 50px;
   color: #000000;
+}
+.line{
+  border-left: solid black;
+  height: 80px;
 }

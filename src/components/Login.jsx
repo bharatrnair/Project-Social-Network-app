@@ -9,6 +9,7 @@ function Login() {
         <div className="loginSection">
         <div className="logoSection">
           <img src={logo} alt="" />
+          <div className="line"></div>
            <h1>socius</h1>
         </div>
 
