@@ -9,6 +9,7 @@ function Login() {
         <div className="loginSection">
         <div className="logoSection">
           <img src={logo} alt="" />
+           <h1>socius</h1>
         </div>
 
         <input type="text" placeholder='username' id='username' />

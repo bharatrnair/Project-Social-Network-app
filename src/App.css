@@ -211,5 +211,10 @@ html,body,#root{
 }
 .logoSection{
   padding-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-
+h1{
+  font-size: 50px;
+  color: #000000;
+}
