@@ -10,6 +10,7 @@ function Login() {
         <div className="logoSection">
           <img src={logo} alt="" />
         </div>
+
         <input type="text" placeholder='username' id='username' />
         <input type="text" placeholder='password'  id='password' />
       
