@@ -3,6 +3,7 @@ import { BrowserRouter, Route,Routes } from "react-router-dom";
 import React from 'react';
 import './App.css';
 import Otp from "./components/Otp.jsx";
+import Profile from './components/Profile.jsx';
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         <Routes>
             <Route path="login" element={<Login />} ></Route>
             <Route path="otp" element={<Otp />} ></Route>
+            <Route path="profile" element={<Profile />} ></Route>
 
         </Routes>
         </BrowserRouter>
