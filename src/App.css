@@ -140,7 +140,9 @@ html,body,#root{
   color: white;
 
 }
-.signUpInput input{
+
+
+#signUpInput input{
   background-color: #ffff;
   border: solid 2px #000000;
   border-radius: 7px;
@@ -242,6 +244,7 @@ h1{
   place-items: center;
   align-content: center;
   padding-bottom: 350px; 
+  gap: 10px;
   
 }
 .profileFooter{
@@ -272,4 +275,27 @@ h1{
   position: absolute;
   top: 8px;
   right: 16px;
+}
+.postSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.image1{
+  background-color: #45597e;
+  height: 120px;
+  width: 150px;
+}
+.image2{
+  background-color: #45597e;
+  height: 160px;
+  width: 170px;
+}
+.image3{
+  background-color: #45597e;
+  height: 130px;
+  width: 160px;
+}
+.backgroundChat{
+  background-color: #C4C4C4;
 }

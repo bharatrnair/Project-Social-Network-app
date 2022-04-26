@@ -10,6 +10,7 @@ const profile = () => {
   return (
    <div className="mainSection">
      <div className="profileSection">
+       <div className="profileSection-header">
        <div className="settings">
          <img src={settings} alt="" />
          <p>settings</p>
@@ -25,6 +26,15 @@ const profile = () => {
            <p>following</p>
 
          </div>
+         </div>
+       </div>
+       <div className="profileSection-body">
+       <div className="postSection">
+         <div className="image1"></div>
+         <div className="image2"></div>
+         <div className="image3"></div>
+
+       </div>
        </div>
 
      </div>
