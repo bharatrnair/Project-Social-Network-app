@@ -4,13 +4,27 @@ import chat from './../components/Assets/chat.svg'
 import post from './../components/Assets/post.svg'
 import search from './../components/Assets/search.svg'
 import bell from './../components/Assets/bell.svg'
+import settings from './../components/Assets/settings.svg'
 
 const profile = () => {
   return (
    <div className="mainSection">
      <div className="profileSection">
+       <div className="settings">
+         <img src={settings} alt="" />
+         <p>settings</p>
+       </div>
        <div className="displayPicture">
 
+       </div>
+       <div className="profileDetails">
+         <h2>username</h2>
+         <div className="friends">
+           <p>followers</p>
+           <div className="line2"> </div>
+           <p>following</p>
+
+         </div>
        </div>
 
      </div>

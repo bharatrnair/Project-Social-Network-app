@@ -253,3 +253,23 @@ h1{
 .footerImage{
   padding: 5px;
 }
+.friends{
+  display: grid;
+  grid-template-columns: 1fr 5px 1fr;
+  gap:10px;
+}
+.line2{
+  border-left: solid black;
+  height: 28px;
+
+}
+.profileDetails{
+  text-align: center;
+  display: grid;
+  gap:10px;
+}
+.settings{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
