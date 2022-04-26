@@ -1,5 +1,6 @@
 import React from 'react';
 import home from  './../components/Assets/home.svg'
+import chat from './../components/Assets/chat.svg'
 
 const profile = () => {
   return (
@@ -11,7 +12,13 @@ const profile = () => {
 
      </div>
      <div className="profileFooter">
-       <img src="{home}" alt="" />
+       <div className="footerImage">
+       <img src={home} alt="" />
+       <p>home</p>
+       </div>
+       <div className="footerImage">
+         <img src={chat} alt="" />
+       </div>
      </div>
    </div>
     

@@ -246,4 +246,10 @@ h1{
 }
 .profileFooter{
   background-color: #C4C4C4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+.footerImage{
+  padding: 5px;
 }
