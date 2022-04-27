@@ -231,7 +231,7 @@ h1{
   grid-template-rows: 4fr .5fr ;
 }
 .displayPicture{
-  background-color: #45597e;
+  background-color: grey;
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -243,8 +243,8 @@ h1{
   display: grid;
   place-items: center;
   align-content: center;
-  padding-bottom: 350px; 
-  gap: 10px;
+  /* padding-bottom: 350px;  */
+  gap: 40px;
   
 }
 .profileFooter{
@@ -279,23 +279,68 @@ h1{
 .postSection{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 150px;
 }
 .image1{
-  background-color: #45597e;
+  background-color: #4a4b4d;
   height: 120px;
   width: 150px;
 }
 .image2{
-  background-color: #45597e;
+  background-color: #545558;
   height: 160px;
   width: 170px;
 }
 .image3{
-  background-color: #45597e;
+  background-color: #707172;
   height: 130px;
   width: 160px;
 }
-.backgroundChat{
-  background-color: #C4C4C4;
+.mainChat{
+  background-color: #D4D4D4;
+  height: 100%;
+  /* width: 500px; */
+}
+.backButton{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.chatHeader{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.searchText{
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  padding-left: 120px;
+}
+#inp{
+  background-color: #ffff;
+  border-radius: 7px;
+  height: 40px;
+  width: 700px;
+  padding-left: 10px;
+}
+.userDp{
+  background-color: #fbfcfe;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.userName{
+  color: #000000;
+  font-size: 20px;
+}
+.chats{
+  display: grid;
+  grid-template-columns: 220px 1fr 100px;
+  gap: 10px;
+}
+.chatBody{
+  display: grid;
+  gap:55px;
 }
