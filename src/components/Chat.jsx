@@ -14,19 +14,25 @@ const Chat = () => {
         </div>
         <div className="chats">
           <div className="userDp"></div>
-           <div className="userName"><h2>User1</h2></div>
+           <div className="userName"><h4>User1</h4></div>
            <div className="camSection"> <img src={cam}alt="" /></div>
            <div className="userDp"></div>
-           <div className="userName"><h2>User2</h2></div>
+           <div className="userName"><h4>User2</h4></div>
            <div className="camSection"> <img src={cam}alt="" /></div>
            <div className="userDp"></div>
-           <div className="userName"><h2>User3</h2></div>
+           <div className="userName"><h4>User3</h4></div>
            <div className="camSection"> <img src={cam}alt="" /></div>
            <div className="userDp"></div>
-           <div className="userName"><h2>User4</h2></div>
+           <div className="userName"><h4>User4</h4></div>
            <div className="camSection"> <img src={cam}alt="" /></div>
            <div className="userDp"></div>
-           <div className="userName"><h2>User5</h2></div>
+           <div className="userName"><h4>User5</h4></div>
+           <div className="camSection"> <img src={cam}alt="" /></div>
+           <div className="userDp"></div>
+           <div className="userName"><h4>User6</h4></div>
+           <div className="camSection"> <img src={cam}alt="" /></div>
+           <div className="userDp"></div>
+           <div className="userName"><h4>User7</h4></div>
            <div className="camSection"> <img src={cam}alt="" /></div>
         </div>
 
