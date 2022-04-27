@@ -12,6 +12,26 @@ const Home = () => {
 
         </div>
         <div className="homeFooter">
+        <div className="footerImage">
+       <img src={home} alt="" />
+       <p>home</p>
+       </div>
+       <div className="footerImage">
+         <img src={chat} alt="" />
+         <p>chats</p>
+       </div>
+       <div className="footerImage">
+         <img src={post} alt="" />
+         <p>post</p>
+       </div>
+       <div className="footerImage">
+         <img src={search} alt="" />
+         <p>search</p>
+       </div>
+       <div className="footerImage">
+         <img src={bell} alt="" />
+         <p>notifications</p>
+       </div>
 
         </div>
     </div>
