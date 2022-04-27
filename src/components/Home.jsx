@@ -15,8 +15,18 @@ const Home = () => {
                 <div className="story"></div>
                 <div className="story"></div>
                 <div className="story"></div>
-
-            </div>
+                <div className="story"></div>
+                <div className="story"></div>
+                <div className="story"></div>
+                <div className="story"></div>
+                <div className="story"></div>
+                <div className="story"></div>
+                <div className="story"></div>
+                </div>
+                <div className="homeFeed">
+                    <div className="postSection"></div>
+                    <div className="onlineSection"></div>
+                </div>
 
         </div>
         <div className="homeFooter">
