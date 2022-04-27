@@ -358,3 +358,13 @@ h1{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
 }
+.story1{
+  background-color: #787b81;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.homeStory{
+  padding: 25px;
+}

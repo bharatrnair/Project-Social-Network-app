@@ -9,6 +9,14 @@ const Home = () => {
   return (
     <div className="homeContainer">
         <div className="homeBody">
+            <div className="homeStory">
+                <div className="story1"></div>
+                <div className="story2"></div>
+                <div className="story3"></div>
+                <div className="story4"></div>
+                <div className="story5"></div>
+
+            </div>
 
         </div>
         <div className="homeFooter">
