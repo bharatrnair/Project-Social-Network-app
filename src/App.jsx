@@ -5,6 +5,7 @@ import './App.css';
 import Otp from "./components/Otp.jsx";
 import Profile from './components/Profile.jsx';
 import Chat from './components/Chat.jsx';
+import Home from './components/Home.jsx';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
             <Route path="otp" element={<Otp />} ></Route>
             <Route path="profile" element={<Profile />} ></Route>
             <Route path="chat" element={<Chat />} ></Route>
+            <Route path="home" element={<Home />} ></Route>
 
         </Routes>
         </BrowserRouter>
