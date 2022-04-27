@@ -24,7 +24,7 @@ const Home = () => {
                 <div className="story"></div>
                 </div>
                 <div className="homeFeed">
-                    <div className="postSection"></div>
+                    <div className="photoSection"></div>
                     <div className="onlineSection"></div>
                 </div>
 

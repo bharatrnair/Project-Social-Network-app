@@ -374,3 +374,16 @@ h1{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   overflow: auto;
 }
+.homeFeed{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+
+}
+.photoSection{
+  background-color: #61dafb;
+  height: 100%;
+}
+.onlineSection{
+  background-color: #707172;
+  height: 100%;
+}
