@@ -10,18 +10,55 @@ const Home = () => {
     <div className="homeContainer">
         <div className="homeBody">
             <div className="homeStory">
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
-                <div className="story"></div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">your story</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 2</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 3</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 4</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 5</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 6</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 7</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 8</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 9</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 10</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 11</div>
+                </div>
+                <div className="story">
+                    <div className="storyIcon"></div>
+                    <div className="storyUser">user 12</div>
+                </div>
+              
                 </div>
                 <div className="homeFeed">
                     <div className="photoSection"></div>

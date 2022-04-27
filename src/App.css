@@ -361,7 +361,7 @@ h1{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
 }
-.story{
+.storyIcon{
   background-color: #787b81;
   height: 70px;
   width: 70px;
