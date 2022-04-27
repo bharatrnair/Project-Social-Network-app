@@ -344,3 +344,17 @@ h1{
   display: grid;
   gap:55px;
 }
+.homeBody{
+  background-color: #ffff;
+}
+.homeContainer{
+  display: grid;
+  height: 100%;
+  grid-template-rows: 4fr .5fr ;
+}
+.homeFooter{
+  background-color: #C4C4C4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
