@@ -349,6 +349,8 @@ h1{
 }
 .homeBody{
   background-color: #ffff;
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 .homeContainer{
   display: grid;
@@ -376,14 +378,20 @@ h1{
 }
 .homeFeed{
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 5fr  3px 1.5fr;
 
 }
 .photoSection{
-  background-color: #61dafb;
+   background-color: #61dafb; 
   height: 100%;
+  overflow: auto;
 }
 .onlineSection{
-  background-color: #707172;
+   background-color: #707172; 
   height: 100%;
+}
+.sectionDivider{
+  border-left: solid black;
+  height: 530px;
+
 }

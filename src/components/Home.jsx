@@ -62,6 +62,7 @@ const Home = () => {
                 </div>
                 <div className="homeFeed">
                     <div className="photoSection"></div>
+                    <div className="sectionDivider"></div>
                     <div className="onlineSection"></div>
                 </div>
 
