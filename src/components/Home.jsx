@@ -5,6 +5,9 @@ import post from './../components/Assets/post.svg'
 import search from './../components/Assets/search.svg'
 import bell from './../components/Assets/bell.svg'
 import online from './../components/Assets/online.svg'
+import like from './../components/Assets/like.svg'
+import dislike from './../components/Assets/dislike.svg'
+import comments from './../components/Assets/comments.svg'
 
 const Home = () => {
   return (
@@ -66,6 +69,14 @@ const Home = () => {
                         <div className="postHeader">
                             <div className="userDp"></div>
                             <div className="user-Feed-Name">user 1</div>
+                        </div>
+                        <div className="postedPhoto">
+
+                        </div>
+                        <div className="postFooter">
+                            <div className="postReaction"></div>
+                            <div className="postReaction-details"></div>
+                            <div className="postCaption"></div>
                         </div>
                     </div>
                     <div className="sectionDivider"></div>

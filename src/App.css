@@ -416,3 +416,10 @@ h1{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.postedPhoto{
+  background-color: #787b81;
+  margin-left: 200px;
+  height: 380px;
+  width: 750px;
+  border-radius: 44px;
+}
