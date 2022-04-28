@@ -384,7 +384,14 @@ h1{
 .photoSection{
   background-color: #ffff; 
   height: 100%;
+  margin:0 auto;
+  width: 100%;
+  max-width: 700px;
   overflow: auto;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+  padding:10px
 }
 .onlineSection{
    background-color: #ffff; 
@@ -421,15 +428,20 @@ h1{
 }
 .postedPhoto{
   background-color: rgb(227, 234, 21);
-  height: 100%;
-  overflow: auto;
+  height: 300px;
   padding: 0px 20px;
   margin: auto;
   width: 100%;
-  max-width: 700px;
+  border-radius: 20px;
+
 }
 .postReaction{
   display: grid;
   grid-template-columns: auto auto 1fr;
-  padding: 0 220px;
+  padding: 0 50px;
+  gap: 20px;
+}
+.postReaction-details{
+  padding-left: 50px;
+  font-weight: bold;
 }

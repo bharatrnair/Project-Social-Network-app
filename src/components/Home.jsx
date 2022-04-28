@@ -88,7 +88,9 @@ const Home = () => {
                                     <p id='reactionFont'>Comments</p>
                                 </div>
                             </div>
-                            <div className="postReaction-details"></div>
+                            <div className="postReaction-details">
+                                <p>Liked By user 1 and</p>
+                            </div>
                             <div className="postCaption"></div>
                         </div>
                     </div>
