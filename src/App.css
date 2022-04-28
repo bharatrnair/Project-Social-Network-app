@@ -382,16 +382,37 @@ h1{
 
 }
 .photoSection{
-   background-color: #61dafb; 
+   background-color: #ffff; 
   height: 100%;
   overflow: auto;
 }
 .onlineSection{
-   background-color: #707172; 
+   background-color: #ffff; 
   height: 100%;
+  display: grid;
+  gap: 10px;
 }
 .sectionDivider{
   border-left: solid black;
   height: 530px;
 
+}
+#onlineHeading{
+  text-align: center;
+  font-size:30px;
+}
+.onlineUser{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10px;
+}
+.userDp{
+  background-color: #0cc7fb;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.postHeader{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

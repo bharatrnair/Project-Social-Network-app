@@ -4,6 +4,7 @@ import chat from './../components/Assets/chat.svg'
 import post from './../components/Assets/post.svg'
 import search from './../components/Assets/search.svg'
 import bell from './../components/Assets/bell.svg'
+import online from './../components/Assets/online.svg'
 
 const Home = () => {
   return (
@@ -61,9 +62,40 @@ const Home = () => {
               
                 </div>
                 <div className="homeFeed">
-                    <div className="photoSection"></div>
+                    <div className="photoSection">
+                        <div className="postHeader">
+                            <div className="userDp"></div>
+                            <div className="user-Feed-Name">user 1</div>
+                        </div>
+                    </div>
                     <div className="sectionDivider"></div>
-                    <div className="onlineSection"></div>
+                    <div className="onlineSection">
+                        <p id='onlineHeading'>online</p>
+                        <div className="onlineUser">
+                            <img src={online} alt="" />
+                            <p>User 1</p>
+                        </div>
+                        <div className="onlineUser">
+                            <img src={online} alt="" />
+                            <p>User 2</p>
+                        </div>
+                        <div className="onlineUser">
+                            <img src={online} alt="" />
+                            <p>User 3</p>
+                        </div>
+                        <div className="onlineUser">
+                            <img src={online} alt="" />
+                            <p>User 4</p>
+                        </div>
+                        <div className="onlineUser">
+                            <img src={online} alt="" />
+                            <p>User 5</p>
+                        </div>
+                        <div className="onlineUser">
+                            <img src={online} alt="" />
+                            <p>User 6</p>
+                        </div>
+                    </div>
                 </div>
 
         </div>
