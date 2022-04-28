@@ -77,15 +77,15 @@ const Home = () => {
                             <div className="postReaction">
                                 <div className="postLike">
                                     <img src={like} alt="" />
-                                    <p>Like</p>
+                                    <p id='reactionFont'>Like</p>
                                 </div>
                                 <div className="postDislike">
                                     <img src={dislike} alt="" />
-                                    <p>Dislike</p>
+                                    <p id='reactionFont'>Dislike</p>
                                 </div>
                                 <div className="postComment">
                                     <img src={comments} alt="" />
-                                    <p>Comments</p>
+                                    <p id='reactionFont'>Comments</p>
                                 </div>
                             </div>
                             <div className="postReaction-details"></div>
