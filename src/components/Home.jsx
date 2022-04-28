@@ -74,7 +74,20 @@ const Home = () => {
 
                         </div>
                         <div className="postFooter">
-                            <div className="postReaction"></div>
+                            <div className="postReaction">
+                                <div className="postLike">
+                                    <img src={like} alt="" />
+                                    <p>Like</p>
+                                </div>
+                                <div className="postDislike">
+                                    <img src={dislike} alt="" />
+                                    <p>Dislike</p>
+                                </div>
+                                <div className="postComment">
+                                    <img src={comments} alt="" />
+                                    <p>Comments</p>
+                                </div>
+                            </div>
                             <div className="postReaction-details"></div>
                             <div className="postCaption"></div>
                         </div>

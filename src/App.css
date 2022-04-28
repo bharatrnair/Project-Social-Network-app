@@ -382,7 +382,7 @@ h1{
 
 }
 .photoSection{
-   background-color: #ffff; 
+  background-color: #ffff; 
   height: 100%;
   overflow: auto;
 }
@@ -414,12 +414,22 @@ h1{
 }
 .postHeader{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
 }
 .postedPhoto{
-  background-color: #787b81;
-  margin-left: 200px;
-  height: 380px;
-  width: 750px;
-  border-radius: 44px;
+  background-color: rgb(227, 234, 21);
+  height: 100%;
+  overflow: auto;
+  padding: 0px 20px;
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+}
+.postReaction{
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  padding: 0 220px;
 }
