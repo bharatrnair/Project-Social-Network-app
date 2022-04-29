@@ -465,6 +465,7 @@ h1{
   padding: 35px;
   display: grid;
   gap: 30px;
+  height: 100%;
 }
 .Personal-chat-date{
   text-align: center;
@@ -502,15 +503,17 @@ h1{
   grid-template-rows: 4fr .5fr;
 }
 .Personal-chat-footer{
-  background-color: #F5BAB8;
-  width: 1450px;
-  height: 105px;
-  border-radius: 40px;
-  display: grid;
-  align-items: center;
+    background-color: #F5BAB8;
+    width: 1450px;
+    height: 105px;
+    border-radius: 40px;
+    display: grid;
+    align-items: center;
+    position: relative;
+    padding: 20px;
 }
 #sendButton{
   position: absolute;
-  right: 70px;
-  bottom: 110px;
+  right: 70px;     /* ask about position: relative; */
+  bottom: 20px;
 }

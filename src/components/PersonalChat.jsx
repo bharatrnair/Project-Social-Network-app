@@ -23,6 +23,7 @@ const PersonalChat = () => {
                   </div>
               
               <div className="Personal-chat-footer">
+                  Type here....
                   <img id='sendButton' src={send} alt="" />
 
               </div>
