@@ -490,3 +490,9 @@ h1{
   left: 198px;
   bottom: 520px
 }
+
+.receiverTime{
+    position: absolute;
+    right: 59px;
+    bottom: 430px;
+}
