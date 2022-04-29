@@ -504,13 +504,13 @@ h1{
 }
 .Personal-chat-footer{
     background-color: #F5BAB8;
-    width: 1450px;
+    /* width: 1450px; */
     height: 105px;
     border-radius: 40px;
     display: grid;
     align-items: center;
-    position: relative;
     padding: 20px;
+    position: relative;
 }
 #sendButton{
   position: absolute;
