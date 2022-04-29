@@ -171,7 +171,7 @@ html,body,#root{
 
 }
 .underline{
-  background-color: #C4C4C4;
+  background-color: #E1D5D5;
   border: none;
   width: 50px;
   border-bottom: solid 2px #000000;
@@ -248,7 +248,7 @@ h1{
   
 }
 .profileFooter{
-  background-color: #C4C4C4;
+  background-color: #E1D5D5;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
@@ -297,7 +297,7 @@ h1{
   width: 160px;
 }
 .mainChat{
-  background-color: #D4D4D4;
+  background-color: #E1D5D5;
   height: 100%;
   /* width: 500px; */
 }
@@ -358,7 +358,7 @@ h1{
   grid-template-rows: 4fr .5fr ;
 }
 .homeFooter{
-  background-color: #C4C4C4;
+  background-color: #E1D5D5;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
