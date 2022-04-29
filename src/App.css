@@ -445,7 +445,22 @@ h1{
   padding-left: 50px;
   font-weight: bold;
 }
-.Personal-chat-body{
+.Personal-chat-main{
   background-color: #E1D5D5;
   height: 100%;
+}
+.Personal-chat-dp{
+  background-color: #ffff;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.Personal-chat-header{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.Personal-chat-body{
+  padding: 35px;
 }
