@@ -463,4 +463,9 @@ h1{
 }
 .Personal-chat-body{
   padding: 35px;
+  display: grid;
+  gap: 30px;
+}
+.Personal-chat-date{
+  text-align: center;
 }

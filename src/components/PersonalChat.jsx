@@ -7,9 +7,10 @@ const PersonalChat = () => {
               <div className="Personal-chat-header">
                   <div className="Personal-chat-dp"></div>
                   <div className="Personal-chat-user"><h2>User</h2></div>
-                  <div className="Personal-chat-date">date</div>
-              </div>
+                  </div>
               <div className="Personal-chat-section">
+                  <div className="Personal-chat-date"><h4>DATE</h4></div>
+              
 
               </div>
           </div>
