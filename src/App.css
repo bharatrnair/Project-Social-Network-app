@@ -469,3 +469,15 @@ h1{
 .Personal-chat-date{
   text-align: center;
 }
+.Personal-chat-sender{
+  background-color: #C97D7D;
+  width: 227px;
+  height: 90px;
+  border-radius: 40px;
+}
+.personal-chat-receiver{
+  background-color: #E3BDBD;
+  width: 520px;
+  height: 92px;
+  border-radius: 40px;
+}
