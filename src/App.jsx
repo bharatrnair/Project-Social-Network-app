@@ -6,6 +6,7 @@ import Otp from "./components/Otp.jsx";
 import Profile from './components/Profile.jsx';
 import Chat from './components/Chat.jsx';
 import Home from './components/Home.jsx';
+import PersonalChat from './components/PersonalChat.jsx'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
             <Route path="profile" element={<Profile />} ></Route>
             <Route path="chat" element={<Chat />} ></Route>
             <Route path="home" element={<Home />} ></Route>
+            <Route path="personalchat" element={<PersonalChat />} ></Route>
 
         </Routes>
         </BrowserRouter>
