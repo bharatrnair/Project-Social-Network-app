@@ -10,6 +10,10 @@ const PersonalChat = () => {
                   </div>
               <div className="Personal-chat-section">
                   <div className="Personal-chat-date"><h4>DATE</h4></div>
+                  <div className="Personal-chat-message">
+                      <div className="Personal-chat-sender"></div>
+                      <div className="personal-chat-receiver"></div>
+                  </div>
               
 
               </div>
