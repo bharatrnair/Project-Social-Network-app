@@ -18,7 +18,7 @@ const App = () => {
             <Route path="profile" element={<Profile />} ></Route>
             <Route path="chat" element={<Chat />} ></Route>
             <Route path="home" element={<Home />} ></Route>
-            <Route path="personalchat" element={<PersonalChat />} ></Route>
+            <Route path="personalChat" element={<PersonalChat />} ></Route>
 
         </Routes>
         </BrowserRouter>

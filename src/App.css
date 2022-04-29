@@ -496,3 +496,21 @@ h1{
     right: 59px;
     bottom: 430px;
 }
+.Personal-chat-section{
+  overflow:auto;
+  display: grid;
+  grid-template-rows: 4fr .5fr;
+}
+.Personal-chat-footer{
+  background-color: #F5BAB8;
+  width: 1450px;
+  height: 105px;
+  border-radius: 40px;
+  display: grid;
+  align-items: center;
+}
+#sendButton{
+  position: absolute;
+  right: 70px;
+  bottom: 110px;
+}

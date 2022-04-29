@@ -1,4 +1,5 @@
 import React from 'react'
+import send from './../components/Assets/send.svg'
 
 const PersonalChat = () => {
   return (
@@ -9,6 +10,7 @@ const PersonalChat = () => {
                   <div className="Personal-chat-user"><h2>User</h2></div>
                   </div>
               <div className="Personal-chat-section">
+                  <div className="Personal-chat">
                   <div className="Personal-chat-date"><h4>DATE</h4></div>
                   <div className="Personal-chat-message">
                       <div className="Personal-chat-sender">
@@ -18,7 +20,12 @@ const PersonalChat = () => {
                           <div className="receiverTime"> 6:25</div>
                       </div>
                   </div>
+                  </div>
               
+              <div className="Personal-chat-footer">
+                  <img id='sendButton' src={send} alt="" />
+
+              </div>
 
               </div>
           </div>
