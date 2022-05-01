@@ -520,9 +520,9 @@ h1{
 .notification-MainContainer{
   background-color: #E1D5D5;
   height: 100%;
+  padding: 60px ;
 }
 .notification-Body{
-  padding: 60px ;
   height: 100%; /* display grid not working */
 }
 #notificationHeader{
@@ -534,8 +534,17 @@ h1{
   width: 1189px;
   height: 90px;
   border-radius: 30px;
+  display: grid;
+  grid-template-columns: 2px 1fr 1fr;
+  padding: 15px;
 }
 .notifications{
   display: grid;
   gap: 20px;
+}
+.notification-display-picture{
+  background-color: #ffff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }

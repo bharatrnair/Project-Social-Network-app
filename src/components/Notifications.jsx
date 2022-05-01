@@ -9,6 +9,15 @@ const Notifications = () => {
                  </div>
                  <div className="notifications">
                      <div className="notification-Unread">
+                         <div className="notification-display-picture">
+
+                         </div>
+                         <div className="notification-details">
+                           <p>user like your photo</p>
+                         </div>
+                         <div className="notification-time">
+
+                         </div>
 
                      </div>
                      <div className="notification-Unread">
