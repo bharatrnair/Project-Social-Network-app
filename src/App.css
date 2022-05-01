@@ -548,3 +548,8 @@ h1{
   width: 50px;
   border-radius: 50%;
 }
+.notification-read{
+  display: grid;
+  grid-template-columns: 20px 1fr 1fr;
+  gap: 150px;
+}
