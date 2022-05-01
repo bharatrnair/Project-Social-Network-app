@@ -537,6 +537,7 @@ h1{
   display: grid;
   grid-template-columns: 2px 1fr 1fr;
   padding: 15px;
+  gap: 120px;
 }
 .notifications{
   display: grid;
