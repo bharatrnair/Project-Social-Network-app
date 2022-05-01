@@ -514,12 +514,28 @@ h1{
 }
 #sendButton{
   position: absolute;
-  right: 70px;     /* ask about position: relative; */
+  right: 70px;        /* ask about position: relative; */
   bottom: 20px;
 }
 .notification-MainContainer{
   background-color: #E1D5D5;
+  height: 100%;
 }
 .notification-Body{
-  padding: 20px ;
+  padding: 60px ;
+  height: 100%; /* display grid not working */
+}
+#notificationHeader{
+  font-size: 30px;
+
+}
+.notification-Unread{
+  background-color: #E3BFBF;
+  width: 1189px;
+  height: 90px;
+  border-radius: 30px;
+}
+.notifications{
+  display: grid;
+  gap: 20px;
 }

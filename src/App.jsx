@@ -20,7 +20,7 @@ const App = () => {
             <Route path="chat" element={<Chat />} ></Route>
             <Route path="home" element={<Home />} ></Route>
             <Route path="personalChat" element={<PersonalChat />} ></Route>
-            <Route path="notificatins" element={<Notifications />}></Route>
+            <Route path="notifications" element={<Notifications />}></Route>
 
         </Routes>
         </BrowserRouter>
