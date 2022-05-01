@@ -16,18 +16,34 @@ const Notifications = () => {
                            <p>user like your photo</p>
                          </div>
                          <div className="notification-time">
-
+                          <p>1 hr </p>
                          </div>
 
                      </div>
                      <div className="notification-Unread">
-                         
+                           <div className="notification-display-picture">
+
+                           </div>
+                         <div className="notification-details">
+                           <p>user like your photo</p>
+                         </div>
+                         <div className="notification-time">
+                          <p>1 hr </p>
+                         </div>
                          </div>
                          <div className="notification-Unread">
                          
                          </div>
                          <div className="notification-read">
-
+                           <div className="notification-display-picture">
+                               
+                               </div>
+                             <div className="notification-details">
+                               <p>user like your photo</p>
+                             </div>
+                             <div className="notification-time">
+                              <p>1 hr </p>
+                             </div>
                          </div>
                          <div className="notification-read">
                              
