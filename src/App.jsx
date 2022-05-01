@@ -7,6 +7,7 @@ import Profile from './components/Profile.jsx';
 import Chat from './components/Chat.jsx';
 import Home from './components/Home.jsx';
 import PersonalChat from './components/PersonalChat.jsx'
+import Notifications from './components/Notifications.jsx'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="chat" element={<Chat />} ></Route>
             <Route path="home" element={<Home />} ></Route>
             <Route path="personalChat" element={<PersonalChat />} ></Route>
+            <Route path="notificatins" element={<Notifications />}></Route>
 
         </Routes>
         </BrowserRouter>

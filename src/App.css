@@ -517,3 +517,9 @@ h1{
   right: 70px;     /* ask about position: relative; */
   bottom: 20px;
 }
+.notification-MainContainer{
+  background-color: #E1D5D5;
+}
+.notification-Body{
+  padding: 20px ;
+}
