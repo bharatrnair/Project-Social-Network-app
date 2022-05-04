@@ -625,6 +625,7 @@ h1{
   display: grid;
   grid-template-columns: auto 1fr auto;
   padding: 20px;
+  gap: 20px;
 }
 .newComment-dp{
   background-color: #ffff;
