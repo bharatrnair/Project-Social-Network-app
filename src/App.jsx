@@ -11,6 +11,7 @@ import Notifications from './components/Notifications.jsx'
 import Settings from './components/Settings.jsx'
 import Comments from './components/Comments.jsx'
 import Likes from './components/Likes.jsx'
+import StoryViews  from "./components/StoryViews.jsx";
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
             <Route path="settings" element ={<Settings />}></Route>
             <Route path="comments" element ={<Comments />}></Route>
             <Route path="likes" element ={<Likes />}></Route>
+            <Route path="storyviews" element ={<StoryViews />}></Route>
 
         </Routes>
         </BrowserRouter>
