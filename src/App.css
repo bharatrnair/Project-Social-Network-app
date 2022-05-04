@@ -662,3 +662,7 @@ h1{
   gap: 20px;
   align-items: center;
 }
+.users-liked{
+  display: grid;
+  gap: 20px;
+}

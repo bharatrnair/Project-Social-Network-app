@@ -18,6 +18,24 @@ const Likes = () => {
                     <p>user 1</p>
                 </div>
             </div>
+
+            <div className="users-who-liked">
+                <div className="likedUsersDp">
+
+                </div>
+                <div className="likeUserName">
+                    <p>user 2</p>
+                </div>
+            </div>
+
+            <div className="users-who-liked">
+                <div className="likedUsersDp">
+
+                </div>
+                <div className="likeUserName">
+                    <p>user 3</p>
+                </div>
+            </div>
         </div>
         </div>
     </div>
