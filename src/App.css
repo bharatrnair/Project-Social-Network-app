@@ -588,9 +588,18 @@ h1{
 #comments-heading{
   font-size: 30px;
   padding-bottom: 20px;
-  color: #C97D7D;
+  color: #e26767;
 }
 .comments-header{
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
+}
+.commentsBody{
+  padding: 40px;
+}
+.comment{
+  background-color: #C97D7D;
+  height: 144px;
+  width: 1216px;
+  border-radius: 30px;
 }
