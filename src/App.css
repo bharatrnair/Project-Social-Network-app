@@ -641,3 +641,24 @@ h1{
 .likeBody{
   height: 100%;
 }
+#likeHeading{
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #e26767;
+}
+.likeHeader{
+  display: flex;
+  gap: 15px;
+}
+.likedUsersDp{
+  background-color: #ffff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.users-who-liked{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
