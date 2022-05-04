@@ -1,5 +1,7 @@
 import React from 'react'
 import comments from './../components/Assets/comments.svg'
+import like from './../components/Assets/Vectorlike.svg'
+import Send from './../components/Assets/VectorSend.svg'
 
 const Comments = () => {
   return (
@@ -15,14 +17,55 @@ const Comments = () => {
 
                     </div>
                     <div className="comment-in-detail">
+                        <div className="commenter-name">
+                          <p>User 1</p>
+                        </div>
+                        <div className="commented">
+                          <p>................</p>
+                          </div>
+                        <div className="comments-footer">
+                            <p>15m  20Likes    Reply</p>
+                        </div>
+                    </div>
+                    <div className="comment-like-unlike">
+                    <img src={like} alt="" />
+                    </div>
+                </div>
+
+                <div className="comment">
+                    <div className="comment-dp">
 
                     </div>
-                    <div className="comment-like-unlike" />
+                    <div className="comment-in-detail">
+                        <div className="commenter-name">
+                          <p>User 2</p>
+                        </div>
+                        <div className="commented">
+                          <p>................</p>
+                          </div>
+                        <div className="comments-footer">
+                            <p>15m  8 Likes    Reply</p>
+                        </div>
+                    </div>
+                    <div className="comment-like-unlike">
+                    <img src={like} alt="" />
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div className="commentsReply">
+            
+        
+        <div className="newComment">
+          <div className="newComment-dp">
 
+          </div>
+          <div className="commentingArea">
+              <p>Add a comment</p>
+          </div>
+          <div className="sendButton">
+              <img src={Send} alt="" />
+          </div>
+
+        </div>
+        </div>
         </div>
     </div>
   )

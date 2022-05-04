@@ -591,8 +591,7 @@ h1{
   color: #e26767;
 }
 .comments-header{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
 }
 .commentsBody{
   padding: 40px;
@@ -602,4 +601,25 @@ h1{
   height: 107px;
   width: 1216px;
   border-radius: 30px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 35px;
+
+}
+.comment-dp{
+  background-color: #ffff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.comment-section{
+  display: grid;
+  gap : 20px;
+}
+.newComment{
+  width: 1216px;
+  height:165px;
+  border-radius: 30px;
+  background-color: #e2aaa8;
 }
