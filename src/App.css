@@ -739,3 +739,11 @@ h1{
   display: grid;
   gap: 25px;
 }
+.save-main-container{
+  background-color: #E1D5D5;
+  height: 100%;
+}
+.save-body{
+  padding: 60px;
+  height: 100%;
+}
