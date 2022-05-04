@@ -10,6 +10,7 @@ import PersonalChat from './components/PersonalChat.jsx'
 import Notifications from './components/Notifications.jsx'
 import Settings from './components/Settings.jsx'
 import Comments from './components/Comments.jsx'
+import Likes from './components/Likes.jsx'
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="notifications" element={<Notifications />}></Route>
             <Route path="settings" element ={<Settings />}></Route>
             <Route path="comments" element ={<Comments />}></Route>
+            <Route path="likes" element ={<Likes />}></Route>
 
         </Routes>
         </BrowserRouter>

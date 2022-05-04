@@ -633,3 +633,11 @@ h1{
   width: 50px;
   border-radius: 50%;
 }
+.Like-mainContainer{
+  background-color: #E1D5D5;
+  height: 100%;
+  padding: 60px;
+}
+.likeBody{
+  height: 100%;
+}
