@@ -1,5 +1,6 @@
 import React from 'react'
 import Back from "./../components/Assets/back1.svg"
+import PostButton from "./../components/Assets/post2.svg"
 
 const Post = () => {
   return (
@@ -13,7 +14,30 @@ const Post = () => {
                     <h2>New post</h2>
                 </div>
             </div>
-            .
+            <div className="postBody-section">
+                <div className="postPhoto-selection">
+
+                </div>
+                <div className="post-button">
+                    <img src={PostButton} alt="" />
+                </div>
+                </div>
+            
+            <div className="postCaption">
+                   <p>write something....</p>
+            </div>
+            <div className="postFrom-section">
+                <div className="postFrom-gallery">
+
+                </div>
+                <div className="postStory">
+
+                </div>
+                <div className="goLive">
+
+                </div>
+            </div>
+            
 
 
         </div>
