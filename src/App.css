@@ -520,13 +520,15 @@ h1{
 .notification-MainContainer{
   background-color: #E1D5D5;
   height: 100%;
-  padding: 60px ;
+  /* padding: 60px ; */
 }
 .notification-Body{
-  height: 100%; /* display grid not working */
+  height: 100%;
+  padding: 60px;                      /* display grid not working */
 }
 #notificationHeader{
   font-size: 30px;
+  padding-bottom: 10px;
 
 }
 .notification-Unread{
@@ -535,7 +537,7 @@ h1{
   height: 90px;
   border-radius: 30px;
   display: grid;
-  grid-template-columns: 2px 1fr 1fr;
+  grid-template-columns: auto 1fr auto;
   padding: 15px;
   gap: 120px;
 }
@@ -551,6 +553,30 @@ h1{
 }
 .notification-read{
   display: grid;
-  grid-template-columns: 20px 1fr 1fr;
+  grid-template-columns: auto 1fr auto;
   gap: 150px;
+}
+.settings-mainContainer{
+  background-color: #E1D5D5;
+  height: 100%;
+}
+.settings-MainBody{
+  height: 100%;
+  padding: 60px;
+}
+#settingHeader{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.settings-property{
+  background-color: #E3BFBF;
+  width: 1188px;
+  height: 85px;
+  border-radius: 30px;
+
+}
+.settings-section{
+  display:grid;
+  gap: 20px;
+
 }
