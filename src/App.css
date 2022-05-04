@@ -581,3 +581,16 @@ h1{
   gap: 20px;
 
 }
+.comments-mainContainer{
+  background-color: #E1D5D5;
+  height: 100%;
+}
+#comments-heading{
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #C97D7D;
+}
+.comments-header{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
