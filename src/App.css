@@ -699,3 +699,7 @@ h1{
   display: grid;
   gap: 20px;
 }
+.post-mainContainer{
+  background-color: #E1D5D5;
+  height: 100%;
+}
