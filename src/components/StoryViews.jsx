@@ -15,6 +15,48 @@ const StoryViews = () => {
              <img src={Bin} alt="" />
          </div>
         </div>
+        <div className="storyView-body">
+            <div className="storyView-user">
+                <div className="storyView-dp">
+
+                </div>
+                <div className="storyView-name">
+                    <p>
+                        user 1
+                    </p>
+                </div>
+            </div>
+            <div className="storyView-user">
+                <div className="storyView-dp">
+
+                </div>
+                <div className="storyView-name">
+                    <p>
+                        user 2
+                    </p>
+                </div>
+            </div>
+            <div className="storyView-user">
+                <div className="storyView-dp">
+
+                </div>
+                <div className="storyView-name">
+                    <p>
+                        user 3
+                    </p>
+                </div>
+            </div>
+            <div className="storyView-user">
+                <div className="storyView-dp">
+
+                </div>
+                <div className="storyView-name">
+                    <p>
+                        user 4
+                    </p>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
   )
