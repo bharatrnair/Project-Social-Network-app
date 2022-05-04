@@ -28,13 +28,13 @@ const Post = () => {
             </div>
             <div className="postFrom-section">
                 <div className="postFrom-gallery">
-
+                  <p>Gallery - </p>
                 </div>
                 <div className="postStory">
-
+                  <p>Story - </p>
                 </div>
                 <div className="goLive">
-
+                  <p> Live -</p>
                 </div>
             </div>
             

@@ -732,3 +732,10 @@ h1{
   padding: 20px;
   margin-left: 70px;
 }
+.postFrom-section{
+  margin-left: 70px;
+  padding-top: 20px;
+  font-size: large;
+  display: grid;
+  gap: 25px;
+}
